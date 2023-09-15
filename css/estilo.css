@@ -1,0 +1,48 @@
+body{
+    background-image: url("../imagens/colorido");
+    background-size: cover;
+    background-repeat: no-repeat;
+align-self: center;
+}
+h1{
+background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:aliceblue;
+text-align: center;
+}
+
+#nome {
+    color: rgb(92, 26, 153);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+  }
+
+h2{
+    text-align: center;
+    color: rgb(189, 55, 122);
+}
+
+/*#nome:hover {
+    background-color:sandybrown
+
+}*/
+
+h2:hover{
+background-color: rgb(94, 209, 255);
+} 
+
+img{
+    width:200px;
+    height:200px;
+   padding: 20px;
+   align-items: center;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+}
